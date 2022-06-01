@@ -1,0 +1,241 @@
+
+var movie1 = {
+Title: "Black Panther",
+Description: "American superhero film based on the Marvel Comics character, Black Panther, depicted as the king and protector of the fictional African nation of Wakanda.",
+Featured: false,
+ImgPath: "https://m.media-amazon.com/images/M/MV5BMTg1MTY2MjYzNV5BMl5BanBnXkFtZTgwMTc4NTMwNDI@._V1_.jpg",
+Rating: "7.3/10",
+ReleaseDate: "2/16/2018",
+Genre: {
+Name: "Adventure",
+Description: "Adventure fiction is a genre of literature that features stories of adventure, such as world travel, difficult quest, voyages of discovery and other journeys."
+},
+Director: {
+Name: "Ryan Coogler",
+Biography: "Ryan Kyle Coogler is an African-American filmmaker and producer. His first feature film, Fruitvale Station, won the top audience and grand jury awards in the U.S. dramatic competition at the 2013 Sundance Film Festival.",
+Birthdate: "5/23/1986",
+Birthplace: "Oakland, California",
+Deathdate: "N/A"
+},
+Actors: [ "Chadwick Boseman", "Michael B. Jordan" ]
+}
+
+
+var movie2 = {
+Title: "Mad Max: Fury Road",
+Description: "In a post-apocalyptic desert wasteland, Fury Road follows Max Rockatansky to flee from cult leader Immortan Joe and his army.",
+Featured: true ,
+ImgPath: "https://m.media-amazon.com/images/M/MV5BN2EwM2I5OWMtMGQyMi00Zjg1LWJkNTctZTdjYTA4OGUwZjMyXkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_FMjpg_UX1000_.jpg ",
+Rating: "8.1/10",
+ReleaseDate: "5/17/2015",
+Genre: {
+Name: "Adventure ",
+Description: "Adventure fiction is a genre of literature that features stories of adventure, such as world travel, difficult quest, voyages of discovery and other journeys. "
+},
+Director: {
+Name: "George Miller",
+Biography: "George Miller is an Australian fim director, screenwriter and producer",
+Birthdate: "3/3/1945",
+Birthplace: "Chinchilla, Queensland, Australia",
+Deathdate: "N/A"
+},
+Actors: [ "Tom Hardy", "Charlize Theron" ]
+}
+
+
+var movie3 = {
+Title: "Bridesmaids",
+Description: "Annie is a single woman whose own life is in a mess. Her best friend, Lillian, is engaged and Annie has to serve as maid of honor. Penniless yet determined to make things perfect, she leads Lillian and other bridesmaids down the wild road to the wedding.",
+Featured:  true,
+ImgPath: "https://m.media-amazon.com/images/M/MV5BMjAyOTMyMzUxNl5BMl5BanBnXkFtZTcwODI4MzE0NA@@._V1_.jpg",
+Rating: "6.8/10",
+ReleaseDate: "5/13/2011",
+Genre: {
+Name: "Comedy",
+Description: "Comedy is a genre of film that uses humor as a driving force. The aim of a comedy film is to illicit laughter from the audience through entertaining stories and characters."
+},
+Director: {
+Name: "Paul Feig",
+Biography: "Paul Samuel Feig is an American actor, comedian and filmmaker.",
+Birthdate: "9/17/1962",
+Birthplace: "Mount Clemens, Michigan",
+Deathdate: "N/A"
+},
+Actors: [ "Melissa McCarthy", "Kristen Wiig" ]
+}
+
+
+var movie4 = {
+Title: "Lady Bird",
+Description: "A teenager navigates a loving, but turbulent relationship with her mother during her eventful senior year of high school.",
+Featured:  false,
+ImgPath: "https://m.media-amazon.com/images/M/MV5BODhkZGE0NDQtZDc0Zi00YmQ4LWJiNmUtYTY1OGM1ODRmNGVkXkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_.jpg",
+Rating: "8.8/10",
+ReleaseDate: "11/10/2017",
+Genre: {
+Name: "Comedy",
+Description: "Comedy is a genre of film that uses humor as a driving force. The aim of a comedy film is to illicit laughter from the audience through entertaining stories and characters."
+},
+Director: {
+Name: "Greta Celeste Gerwig",
+Biography: "Greta Cleste Gerwig is an American actress, writer and director.",
+Birthdate: "8/4/1983",
+Birthplace: "Sacramento, California",
+Deathdate: "N/A"
+},
+Actors: [ "Saoirse Ronan", "Laurie Metcalf" ]
+}
+
+
+var movie5 = {
+Title: "Inception",
+Description: "Dom Cobb is a thief with the rare ability to enter people's dreams and steal their secrets from their subconscious. He is charged with the task of planting an idea in someone's mind. Will he succeed?",
+Featured:  true,
+ImgPath: "https://m.media-amazon.com/images/M/MV5BMjAxMzY3NjcxNF5BMl5BanBnXkFtZTcwNTI5OTM0Mw@@._V1_FMjpg_UX1000_.jpg",
+Rating: "8.8/10",
+ReleaseDate: "7/16/2010",
+Genre: {
+Name: "Science Fiction",
+Description: "Science Fiction (or sci-fi) is a film genre that uses speculative, fictional science-based depictions of phenomena that are not fully accepted by mainstream audience."
+},
+Director: {
+Name: "Christopher Nolan",
+Biography: " Christopher Nolan is a British-American film director, producer and screenwriter.",
+Birthdate: "7/30/1970",
+Birthplace: "London, England",
+Deathdate: "N/A"
+},
+Actors: [ "Leonardo Di Caprio", "Joseph Gordon-Levitt" ]
+}
+
+
+var movie6 = {
+Title: "Spider-Man: Into the Spider-Verse",
+Description: "A 2018 American computer-animated super hero film featuring the Marvel Comics character, Spider-Man.",
+Featured:  true,
+ImgPath: "https://m.media-amazon.com/images/M/MV5BMjMwNDkxMTgzOF5BMl5BanBnXkFtZTgwNTkwNTQ3NjM@._V1_FMjpg_UX1000_.jpg",
+Rating: "8.4/10",
+ReleaseDate: "12/14/2018",
+Genre: {
+Name: "Adventure",
+Description: "Adventure fiction is a genre of literature that features stories of adventure, such as world travel, difficult quest, voyages of discovery and other journeys."
+},
+Director: {
+Name: "Peter Ramsey",
+Biography: "Peter A. Ramsey is an American illustrator, storyboard artist, story artist, film director, and film producer.",
+Birthdate: "12/23/1962",
+Birthplace: "Crenshaw, California",
+Deathdate: "N/A"
+},
+Actors: [ "Jake Johnson", "Shameik Moore" ]
+}
+
+
+var movie7 = {
+Title: "The Godfather",
+Description: "Highly regarded as one of the greatest films of all time, this movie focuses on the powerful Italian American crime family of Don Vito Corleone. Corleone's son relectantly joins the mafia and gets caught in violence and betrayal.",
+Featured:  true,
+ImgPath: "https://m.media-amazon.com/images/M/MV5BM2MyNjYxNmUtYTAwNi00MTYxLWJmNWYtYzZlODY3ZTk3OTFlXkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_.jpg",
+Rating: "9.2/10",
+ReleaseDate: "3/15/1972",
+Genre: {
+Name: "Thriller",
+Description: "Thriller film is a broad film genre that evokes excitement and suspense in the audience."
+},
+Director: {
+Name: "Franicis Ford Coppola",
+Biography: "Francis Ford Coppola is an American film director, producer, and screenwriter.",
+Birthdate: "4/7/1939",
+Birthplace: "Detroit, Michigan",
+Deathdate: "N/A"
+},
+Actors: [ "Al Pacino", "Marlo Brando" ]
+}
+
+
+var movie8 = {
+Title: "The Lion King",
+Description: "A Disney animated film follows the adventures of the young lion, Simba, the heir of his father, Mufasa. Simba's father is killed by a stampede, but Simba's uncle Scar was behind his father's death. Now as an adult lion, Simba confronts his uncle to take back his homeland.",
+Featured:  false,
+ImgPath: "https://m.media-amazon.com/images/M/MV5BMjIwMjE1Nzc4NV5BMl5BanBnXkFtZTgwNDg4OTA1NzM@._V1_.jpg",
+Rating: "6.9/10",
+ReleaseDate: "6/24/1999",
+Genre: {
+Name: "Animation",
+Description: "Animation film involves a method of photographing successive drawings, models, or even puppets, to create an illusion of movement in a sequence."
+},
+Director: {
+Name: "Rob Minkoff",
+Biography: "Robert Ralph (Rob) Minkoff is an American director, screenwriter, producer, and animator.",
+Birthdate: "8/11/1962",
+Birthplace: "Palo Alto, California",
+Deathdate: "N/A"
+},
+Actors: [ "Matthew Broderick", "James Earl Jones" ]
+}
+
+
+var movie9 = {
+Title: "The Shining",
+Description: "A murderer is hell bent on terrorizing Jack Torrance's family as a hotel's dark secrets began to unravel.",
+Featured:  false,
+ImgPath: "https://m.media-amazon.com/images/M/MV5BZWFlYmY2MGEtZjVkYS00YzU4LTg0YjQtYzY1ZGE3NTA5NGQxXkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_FMjpg_UX1000_.jpg",
+Rating: "8.4/10",
+ReleaseDate: "5/23/1980",
+Genre: {
+Name: "Thriller",
+Description: "Thriller film is a broad film genre that evokes excitement and suspense in the audience."
+},
+Director: {
+Name: "Stanley Kubrick",
+Biography: "Stanley Kubrick was an American film director, producer, screenwriter, and photographer. ",
+Birthdate: "7/26/1928",
+Birthplace: "Bronx, New York",
+Deathdate: "3/7/1999"
+},
+Actors: [ "Jack Nicholson", "Shelley Duvall" ]
+}
+
+
+var movie10 = {
+Title: "The Wizard Of Oz",
+Description: "When a cyclone hits, Dorothy is swallowed up by the cyclone and wakes up in the Land of Oz. She follows the Yellow Brick Road to meet the Wizard of Oz meeting many along the way.",
+Featured:  false,
+ImgPath: "https://m.media-amazon.com/images/M/MV5BNjUyMTc4MDExMV5BMl5BanBnXkFtZTgwNDg0NDIwMjE@._V1_FMjpg_UX1000_.jpg",
+Rating: "8.1/10",
+ReleaseDate: "8/25/1939",
+Genre: {
+Name: "Musical",
+Description: "Musical film refers to movies that include singing and/or dancing as an important element of the narrative."
+},
+Director: {
+Name: "Victor Fleming",
+Biography: "Victor Lonzo Fleming was an American film director, cinematographer and producer.",
+Birthdate: "2/23/1889",
+Birthplace: "La Canada, California",
+Deathdate: "1/6/1949"
+},
+Actors: [ "Judy Garland", "Jack Haley" ]
+}
+
+
+var movie11 = {
+Title: "Gone With The Wind",
+Description: "The daughter of a Georgia plantation owner conducts a turbulent romance with a roguish profiteer during the American Civil War.",
+Featured:  false ,
+ImgPath: "https://m.media-amazon.com/images/M/MV5BYjUyZWZkM2UtMzYxYy00ZmQ3LWFmZTQtOGE2YjBkNjA3YWZlXkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_.jpg",
+Rating: "8.2/10",
+ReleaseDate: "1/17/1939",
+Genre: {
+Name: "Drama",
+Description: "In film and television, drama is a category of narrative fiction intended to be more serious than humorous in tone."
+},
+Director: {
+Name: "Victor Fleming",
+Biography: "Victor Lonzo Fleming was an American film director, cinematographer and producer.",
+Birthdate: "2/23/1889",
+Birthplace: "La Canada, California",
+Deathdate: "1/6/1949"
+},
+Actors: [ "Vivien Leigh", "Hattie McDaniel" ]
+}
